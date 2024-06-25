@@ -5,9 +5,9 @@
 Приложение позволяет получить баланс и некоторую информацию адресов.
 
 ## Функционал
-- **Получение баланса конкретного адреса**: `GET http://127.0.0.1:8000/get_balance/?addresses=<address>'
-- **Получение балансов нескольких адресов**: `GET http://127.0.0.1:8000/get_balance_batch/?addresses=["<address1>", "<address1>"]'
-- **Получение балансов нескольких адресов**: `POST http://127.0.0.1:8000/get_balance_batch/' с телом запроса JSON: {"addresses": ["<address1>", "<address2>"]}
+- **Получение баланса конкретного адреса**: `GET http://127.0.0.1:8000/get_balance/?addresses="address"`
+- **Получение балансов нескольких адресов**: `GET http://127.0.0.1:8000/get_balance_batch/?addresses=["address1", "address2"]`
+- **Получение балансов нескольких адресов**: `POST http://127.0.0.1:8000/get_balance_batch/` с телом запроса JSON: {"addresses": ["address1", "address2"]}
 - **Получение информации о токене**: `GET http://127.0.0.1:8000/get_token_info/?address=<address>`
 
 ## Установка
