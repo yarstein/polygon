@@ -15,7 +15,7 @@
 1. Клонируйте репозиторий:
 
     ```bash
-    git clone polygon
+    git clone https://github.com/yarstein/polygon
     cd polygon
     ```
 
